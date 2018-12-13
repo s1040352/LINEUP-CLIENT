@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgn"
+    android:gravity="center_vertical|center_horizontal|center"
+    android:orientation="vertical"
+    tools:context="com.example.sitting.myapplicationmixx.MainActivity"
+    android:clickable="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="剩餘時間:"
+        android:textColor="#1D3856"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/waittime"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="199dp">
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="207dp"
+            android:paddingLeft="10dp"
+            android:text="您的號碼"
+            android:textColor="#1D3856"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="118dp"
+            android:layout_height="match_parent"
+            android:width="230dp"
+            android:textAlignment="center"
+            android:textColor="#1D3856"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="167dp"
+            android:layout_height="191dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="目前號碼"
+                android:textColor="#9b5555"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/nownumber"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:width="230dp"
+                android:textAlignment="center"
+                android:textColor="#9b5555"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

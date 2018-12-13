@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_vertical|center_horizontal|center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:width="230dp"
+            android:hint="name"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帳號:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:width="230dp"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="account"
+            android:inputType="textVisiblePassword"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密碼:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editCode"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:width="230dp"
+            android:digits="1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
+            android:hint="code"
+            android:password="true"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="確認密碼:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editCheckcode"
+            android:layout_width="194dp"
+            android:layout_height="40dp"
+            android:width="230dp"
+            android:hint="doublecheck"
+            android:password="true"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手機:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:width="230dp"
+            android:hint="09xxxxxxxx"
+            android:inputType="number"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="信箱:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:width="230dp"
+            android:hint="xxx@xxx"
+            android:inputType="textEmailAddress"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="性別:"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="285dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="先生" />
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="71dp"
+                android:layout_height="match_parent"
+                android:text="小姐" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/select_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:layout_margin="30dp"
+            android:background="@null"
+            android:textColor="#99ffffff"
+            android:textSize="30dp"
+            android:text="註冊" />
+
+    </LinearLayout>
+
+</LinearLayout>

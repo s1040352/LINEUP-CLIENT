@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_vertical|center_horizontal|center"
+    android:orientation="vertical"
+    tools:context="com.example.sitting.myapplicationmixx.MainActivity"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="23dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="20dp"
+            android:width="100dp"
+            android:background="@drawable/pencil" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名:"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓別:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/gender1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!--性別先生小姐-->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帳號:"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/username1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手機:"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="信箱:"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email1"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_vertical|center_horizontal|center"
+    android:orientation="vertical"
+    android:clickable="true">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="77dp"
+            android:layout_height="37dp"
+            android:gravity="center"
+            android:text="推播通知"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="76dp" />
+
+    <Switch
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:textOff="關閉"
+        android:textOn="開啟"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="震動回饋"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <Switch
+        android:id="@+id/open1"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:textOff="關閉"
+        android:textOn="開啟"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="90dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="背景音樂"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Switch
+        android:id="@+id/open2"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:textOff="關閉"
+        android:textOn="開啟"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="92dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="偏好設定"
+        android:layout_margin="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="384dp"
+        android:layout_height="38dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg"
+        android:text="登出"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="意見回饋"
+        android:textSize="13dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:gravity="center_vertical"
+            android:text="登入"
+            android:textAlignment="center"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:gravity="center_vertical|center_horizontal|center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="帳號："
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/loginaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:width="230dp"
+                android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:hint="ACCOUNT"
+                android:inputType="textVisiblePassword"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center_vertical|center_horizontal|center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密碼："
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/loginpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:width="230dp"
+                android:digits="1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
+                android:hint="CODE"
+                android:password="true"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="324dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:background="@null"
+            android:text="登入"
+            android:textColor="#99ffffff"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:background="@null"
+            android:text="註冊"
+            android:textColor="#99ffffff"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
